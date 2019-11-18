@@ -43,3 +43,62 @@ margin-top: 3.3%;
 margin-left: 3%;
 }
 
+body {
+	background-color: #D8B1A4;
+	margin: 0;
+}
+body div#header img#logo {
+	height: 50px;
+	width: 135px;
+	margin-right: 20px;
+	float: right;
+}
+body div#header img#menu {
+	height: 75px;
+	width: 100px;
+	float: left;
+}
+body div#header img {
+	margin-top: 20px;
+}
+body div#header a:active {
+	border: none;
+	text-decoration: none;
+}
+body div#header a:visited {
+	border: none;
+	text-decoration: none;
+}
+body div#header {
+	background-color: #DEBDB2;
+	height: 100px;
+	width: 100%;
+	margin: 0;
+	margin-bottom: 200px;
+}
+body #dogs {
+	position: relative;
+	width: 484px;
+	height: 244px;
+	margin: 0 auto;
+}
+body #dogs img {
+	width: 484px;
+	height: 244px;
+}
+body #piano-tiles {
+	margin: 0 auto;
+	width: 550px;
+}
+body #piano-tiles, body #dogs {
+	display: block;
+}
+body #piano-tiles > .piano-tile {
+	width: 73px;
+	height: 316px;
+	display: inline-block;
+}
+body #piano-tiles > .piano-tile img {
+	width: 73px;
+	height: 316px;
+}
